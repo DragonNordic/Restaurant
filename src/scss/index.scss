@@ -78,6 +78,44 @@ section{
         display: none;
     }
 }
+
+
+@media(max-width:768px) {
+
+    #menu-bar {
+      display: block !important;
+    }
   
+    .header {
+
+        &__navbar{
+            position: absolute;
+            top:100%; left: 0; right:0;
+            background: #f7f7f7;
+            border-top: .1rem solid rgba(0,0,0,.1);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            &.active {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);          
+            }
+
+            & a {
+                margin: 1.5rem;
+                padding:1.5rem;
+                display: block;
+                border:.2rem solid rgba(0,0,0,.1);
+                border-left:.5rem solid $red;
+                background:#fff;
+            }
+        }
+    }
+}
+  
+@media(max-width:450px){
+  
+    html{
+        font-size: 50%;
+    }
+}  
   
   
