@@ -181,10 +181,10 @@ section {
   cursor: pointer;
   border-radius: 0.5rem;
 }
-.box:hover .speciality__image {
+.box:hover .box__image {
   top: 0;
 }
-.box:hover .speciality__content {
+.box:hover .box__content {
   transform: translateY(100%);
 }
 .box__content {
