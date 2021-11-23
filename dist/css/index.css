@@ -344,6 +344,62 @@ section {
   padding: 0.5rem 0;
 }
 
+.order__row {
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+}
+.order__row form {
+  flex: 1 1 50rem;
+  padding: 1rem;
+}
+.order__row form textarea {
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.7rem;
+  color: #333;
+  text-transform: none;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  width: 100%;
+  resize: none;
+  height: 15rem;
+}
+.order__row form .btn {
+  background: none;
+}
+.order__row form .btn:hover {
+  background: #ff3838;
+}
+.order__image {
+  flex: 1 1 30rem;
+}
+.order__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.order__input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.order__input-box input {
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.7rem;
+  color: #333;
+  text-transform: none;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  width: 49%;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
